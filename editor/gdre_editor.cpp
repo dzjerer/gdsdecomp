@@ -665,7 +665,6 @@ void GodotREEditor::_compile_files() {
 }
 
 void GodotREEditor::_compile_process() {
-	/*
 	Vector<String> files = script_dialog_c->get_file_list();
 	Vector<uint8_t> key = key_dialog->get_key(); = script_dialog_c->get_key();
 	String dir = script_dialog_c->get_target_dir();
@@ -724,7 +723,6 @@ void GodotREEditor::_compile_process() {
 	} else {
 		show_warning(RTR("No errors detected."), RTR("Compile"), RTR("The operation completed successfully!"));
 	}
-*/
 }
 
 /*************************************************************************/
